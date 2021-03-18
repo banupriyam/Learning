@@ -15,12 +15,14 @@
 		3F05093525F62C4B00C61F39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F05093325F62C4B00C61F39 /* Main.storyboard */; };
 		3F05093725F62C4C00C61F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F05093625F62C4C00C61F39 /* Assets.xcassets */; };
 		3F05093A25F62C4C00C61F39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F05093825F62C4C00C61F39 /* LaunchScreen.storyboard */; };
+		3F6ED5B6260384C000000551 /* LocalNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6ED5B5260384C000000551 /* LocalNotificationViewController.swift */; };
 		3FDE654A2600941500694796 /* TabbarViewControllerItem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDE65492600941500694796 /* TabbarViewControllerItem1.swift */; };
 		3FDE654D2600943600694796 /* TabbarViewControllerItem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDE654C2600943600694796 /* TabbarViewControllerItem2.swift */; };
 		3FDE65542600A09800694796 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDE65532600A09800694796 /* TabbarViewController.swift */; };
 		3FDE65572600EA4A00694796 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDE65562600EA4A00694796 /* PageViewController.swift */; };
 		3FDE655A2601E94E00694796 /* ViewAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDE65592601E94E00694796 /* ViewAnimationViewController.swift */; };
 		3FDE65612601F67E00694796 /* PersistentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDE65602601F67E00694796 /* PersistentTableViewController.swift */; };
+		3FDE65652603723600694796 /* PersistentData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FDE65632603723600694796 /* PersistentData.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,12 +36,14 @@
 		3F05093625F62C4C00C61F39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F05093925F62C4C00C61F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F05093B25F62C4C00C61F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6ED5B5260384C000000551 /* LocalNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationViewController.swift; sourceTree = "<group>"; };
 		3FDE65492600941500694796 /* TabbarViewControllerItem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewControllerItem1.swift; sourceTree = "<group>"; };
 		3FDE654C2600943600694796 /* TabbarViewControllerItem2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewControllerItem2.swift; sourceTree = "<group>"; };
 		3FDE65532600A09800694796 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
 		3FDE65562600EA4A00694796 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		3FDE65592601E94E00694796 /* ViewAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAnimationViewController.swift; sourceTree = "<group>"; };
 		3FDE65602601F67E00694796 /* PersistentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentTableViewController.swift; sourceTree = "<group>"; };
+		3FDE65642603723600694796 /* PersistentData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PersistentData.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,7 @@
 				3F05092F25F62C4B00C61F39 /* SceneDelegate.swift */,
 				3F05093125F62C4B00C61F39 /* ViewController.swift */,
 				3F05093325F62C4B00C61F39 /* Main.storyboard */,
+				3F6ED5B5260384C000000551 /* LocalNotificationViewController.swift */,
 				3FDE65602601F67E00694796 /* PersistentTableViewController.swift */,
 				3FDE65592601E94E00694796 /* ViewAnimationViewController.swift */,
 				3FDE65562600EA4A00694796 /* PageViewController.swift */,
@@ -85,6 +90,7 @@
 				3F005C9325FF2C7B00907D51 /* TextTableController.swift */,
 				3F005C9725FF946D00907D51 /* CollectionViewController.swift */,
 				3F05093625F62C4C00C61F39 /* Assets.xcassets */,
+				3FDE65632603723600694796 /* PersistentData.xcdatamodeld */,
 				3F05093825F62C4C00C61F39 /* LaunchScreen.storyboard */,
 				3F05093B25F62C4C00C61F39 /* Info.plist */,
 			);
@@ -171,6 +177,8 @@
 				3FDE65572600EA4A00694796 /* PageViewController.swift in Sources */,
 				3FDE654D2600943600694796 /* TabbarViewControllerItem2.swift in Sources */,
 				3FDE655A2601E94E00694796 /* ViewAnimationViewController.swift in Sources */,
+				3F6ED5B6260384C000000551 /* LocalNotificationViewController.swift in Sources */,
+				3FDE65652603723600694796 /* PersistentData.xcdatamodeld in Sources */,
 				3F05093025F62C4B00C61F39 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,6 +381,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3FDE65632603723600694796 /* PersistentData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3FDE65642603723600694796 /* PersistentData.xcdatamodel */,
+			);
+			currentVersion = 3FDE65642603723600694796 /* PersistentData.xcdatamodel */;
+			path = PersistentData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3F05092225F62C4B00C61F39 /* Project object */;
 }
