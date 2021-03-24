@@ -15,6 +15,7 @@
 		3F05093525F62C4B00C61F39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F05093325F62C4B00C61F39 /* Main.storyboard */; };
 		3F05093725F62C4C00C61F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F05093625F62C4C00C61F39 /* Assets.xcassets */; };
 		3F05093A25F62C4C00C61F39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F05093825F62C4C00C61F39 /* LaunchScreen.storyboard */; };
+		3F0FC241260B675F00F0B3C1 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FC240260B675F00F0B3C1 /* PostViewController.swift */; };
 		3F6ED5B6260384C000000551 /* LocalNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6ED5B5260384C000000551 /* LocalNotificationViewController.swift */; };
 		3FDE654A2600941500694796 /* TabbarViewControllerItem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDE65492600941500694796 /* TabbarViewControllerItem1.swift */; };
 		3FDE654D2600943600694796 /* TabbarViewControllerItem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDE654C2600943600694796 /* TabbarViewControllerItem2.swift */; };
@@ -36,6 +37,7 @@
 		3F05093625F62C4C00C61F39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F05093925F62C4C00C61F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F05093B25F62C4C00C61F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0FC240260B675F00F0B3C1 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		3F6ED5B5260384C000000551 /* LocalNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationViewController.swift; sourceTree = "<group>"; };
 		3FDE65492600941500694796 /* TabbarViewControllerItem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewControllerItem1.swift; sourceTree = "<group>"; };
 		3FDE654C2600943600694796 /* TabbarViewControllerItem2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewControllerItem2.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				3F05092F25F62C4B00C61F39 /* SceneDelegate.swift */,
 				3F05093125F62C4B00C61F39 /* ViewController.swift */,
 				3F05093325F62C4B00C61F39 /* Main.storyboard */,
+				3F0FC240260B675F00F0B3C1 /* PostViewController.swift */,
 				3F6ED5B5260384C000000551 /* LocalNotificationViewController.swift */,
 				3FDE65602601F67E00694796 /* PersistentTableViewController.swift */,
 				3FDE65592601E94E00694796 /* ViewAnimationViewController.swift */,
@@ -169,6 +172,7 @@
 			files = (
 				3FDE65542600A09800694796 /* TabbarViewController.swift in Sources */,
 				3F005C9825FF946D00907D51 /* CollectionViewController.swift in Sources */,
+				3F0FC241260B675F00F0B3C1 /* PostViewController.swift in Sources */,
 				3F05093225F62C4B00C61F39 /* ViewController.swift in Sources */,
 				3F05092E25F62C4B00C61F39 /* AppDelegate.swift in Sources */,
 				3FDE654A2600941500694796 /* TabbarViewControllerItem1.swift in Sources */,
