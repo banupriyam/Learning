@@ -20,6 +20,8 @@
 		3F7D0A44260C768E003B178C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D0A43260C768E003B178C /* MapViewController.swift */; };
 		3F7D0A8F260E0B91003B178C /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D0A8E260E0B91003B178C /* LoginPageViewController.swift */; };
 		3F7D0A922611AD6E003B178C /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D0A912611AD6E003B178C /* RegistrationViewController.swift */; };
+		3F7D0A9526135DB9003B178C /* DataSenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D0A9426135DB9003B178C /* DataSenderViewController.swift */; };
+		3F7D0A9826135DE5003B178C /* DataReceiverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D0A9726135DE5003B178C /* DataReceiverViewController.swift */; };
 		3FDE654A2600941500694796 /* TabbarViewControllerItem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDE65492600941500694796 /* TabbarViewControllerItem1.swift */; };
 		3FDE654D2600943600694796 /* TabbarViewControllerItem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDE654C2600943600694796 /* TabbarViewControllerItem2.swift */; };
 		3FDE65542600A09800694796 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDE65532600A09800694796 /* TabbarViewController.swift */; };
@@ -45,6 +47,8 @@
 		3F7D0A43260C768E003B178C /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		3F7D0A8E260E0B91003B178C /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
 		3F7D0A912611AD6E003B178C /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		3F7D0A9426135DB9003B178C /* DataSenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSenderViewController.swift; sourceTree = "<group>"; };
+		3F7D0A9726135DE5003B178C /* DataReceiverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataReceiverViewController.swift; sourceTree = "<group>"; };
 		3FDE65492600941500694796 /* TabbarViewControllerItem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewControllerItem1.swift; sourceTree = "<group>"; };
 		3FDE654C2600943600694796 /* TabbarViewControllerItem2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewControllerItem2.swift; sourceTree = "<group>"; };
 		3FDE65532600A09800694796 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +92,8 @@
 				3F05092F25F62C4B00C61F39 /* SceneDelegate.swift */,
 				3F05093125F62C4B00C61F39 /* ViewController.swift */,
 				3F05093325F62C4B00C61F39 /* Main.storyboard */,
+				3F7D0A9726135DE5003B178C /* DataReceiverViewController.swift */,
+				3F7D0A9426135DB9003B178C /* DataSenderViewController.swift */,
 				3F7D0A912611AD6E003B178C /* RegistrationViewController.swift */,
 				3F7D0A43260C768E003B178C /* MapViewController.swift */,
 				3F0FC240260B675F00F0B3C1 /* PostViewController.swift */,
@@ -180,8 +186,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FDE65542600A09800694796 /* TabbarViewController.swift in Sources */,
+				3F7D0A9526135DB9003B178C /* DataSenderViewController.swift in Sources */,
 				3F005C9825FF946D00907D51 /* CollectionViewController.swift in Sources */,
 				3F0FC241260B675F00F0B3C1 /* PostViewController.swift in Sources */,
+				3F7D0A9826135DE5003B178C /* DataReceiverViewController.swift in Sources */,
 				3F05093225F62C4B00C61F39 /* ViewController.swift in Sources */,
 				3F05092E25F62C4B00C61F39 /* AppDelegate.swift in Sources */,
 				3FDE654A2600941500694796 /* TabbarViewControllerItem1.swift in Sources */,
